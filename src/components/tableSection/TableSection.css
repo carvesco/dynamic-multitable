@@ -87,12 +87,6 @@
   grid-row: 3;
 }
 
-/* 6 Tables: 3x2 grid */
-.table-count-6 {
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-}
-
 /* Responsive behavior */
 @media (max-width: 1200px) {
   .table-count-3,

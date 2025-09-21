@@ -1,0 +1,101 @@
+manufacturer_id,manufacturer_name,country,industry,product_price,product_name
+1,Tambee,Indonesia,Automotive,336.15,Pressure Cooker
+2,Realblab,China,Fashion,5766.83,Wall Decals for Kids
+3,Oodoo,Mongolia,Technology,5908.81,Saffron Rice Mix
+4,Jetpulse,China,Technology,9320.39,Scent Diffuser
+5,BlogXS,Finland,Healthcare,8610.89,Spinach and Cheese Quiche
+6,Pixonyx,Paraguay,Healthcare,9176.45,Air Purifier
+7,Zooveo,Philippines,Automotive,6113.48,Car Vacuum
+8,BlogXS,Brazil,Fashion,7442.16,Herb Garden Planter Box
+9,Realbuzz,Indonesia,Automotive,9272.3,Cranberry Citrus Sauce
+10,Topicshots,Morocco,Healthcare,3099.95,Portable Massage Table
+11,Brainsphere,Japan,Food & Beverage,6272.65,Basil-infused Olive Oil
+12,Gigaclub,Indonesia,Fashion,451.35,Electric Kettle
+13,Quamba,Ireland,Fashion,2301.29,Peanut Butter Chocolate Clusters
+14,Youbridge,Indonesia,Fashion,533.62,Pork Tenderloin
+15,Twiyo,Morocco,Fashion,7617.25,Maxi Wrap Dress
+16,Gabcube,Poland,Healthcare,6878.9,Ergonomic Mouse Pad with Wrist Support
+17,Vinte,China,Automotive,1570.65,Active Racerback Tank
+18,Browsezoom,Costa Rica,Fashion,5575.62,Chewy Granola Bars
+19,Twitterworks,China,Food & Beverage,4898.49,Sweet Potato & Kale Hash
+20,Gabtype,Czech Republic,Automotive,2794.45,Electric Toothbrush
+21,Layo,Egypt,Fashion,5746.16,Frozen Mixed Vegetables
+22,Reallinks,Philippines,Fashion,9184.13,Pistachios
+23,Mymm,Indonesia,Healthcare,1018.8,Solar Garden Lights
+24,Agivu,China,Healthcare,998.89,Roasted Garlic
+25,Mydeo,United Kingdom,Technology,6643.18,Sliced Avocado
+26,Cogilith,Portugal,Automotive,8057.54,Ultraviolet Phone Sanitizer
+27,Fatz,China,Food & Beverage,4764.21,Smart Doorbell
+28,Yoveo,Russia,Healthcare,3667.97,Basil Lemonade
+29,Kazu,Sweden,Automotive,611.96,Wall-Mounted Bookshelf
+30,Skinix,Honduras,Food & Beverage,8329.75,Tattoo Kit
+31,Livepath,Indonesia,Healthcare,3150.51,Bluetooth Tracker
+32,Twitterwire,Peru,Healthcare,3529.31,Terry Cloth Robe
+33,Leenti,China,Technology,5642.8,Cinnamon Sugar Donuts
+34,Yambee,Indonesia,Fashion,4069.08,Lemon Pepper Seasoning
+35,Zoovu,Uganda,Healthcare,6180.38,Wireless Gaming Mouse
+36,Avamm,Philippines,Healthcare,1128.92,Honey Garlic Chicken
+37,Kwideo,Bolivia,Fashion,8415.15,Chocolate Peanut Butter Cups
+38,Kamba,Madagascar,Fashion,6588.96,Ramen Noodles
+39,Realbuzz,Brazil,Technology,4975.74,Pet Carrier Backpack
+40,Realbuzz,Indonesia,Automotive,8475.79,Sweet Pea Hummus
+41,Oyope,Morocco,Fashion,9077.04,Wall-Mounted Wine Rack
+42,Zoomdog,Sweden,Fashion,3914.86,Savory Italian Herbs
+43,Quatz,Russia,Automotive,2336.82,Vintage Graphic Tee
+44,Zooveo,Canada,Technology,5023.53,Tomato Basil Pasta Sauce
+45,Thoughtstorm,Czech Republic,Food & Beverage,2850.73,Solar Garden Lights
+46,Podcat,Poland,Fashion,4936.19,Mechanical Keyboard
+47,Realfire,China,Fashion,8949.79,Wireless Charging Station
+48,Roomm,China,Fashion,490.8,Roasted Red Pepper Sauce
+49,Quimba,Pakistan,Food & Beverage,5251.64,Smartphone Tripod with Remote
+50,Roodel,Thailand,Automotive,9049.16,Avocados
+51,Skiptube,Honduras,Healthcare,3054.04,Smart Thermos
+52,Agimba,Russia,Automotive,1488.97,Hibiscus Tea Bags
+53,Meembee,China,Food & Beverage,7710.52,Fitness Tracker Band
+54,Meejo,China,Fashion,6560.88,Window Bird Feeder with Suction Cups
+55,DabZ,Brazil,Automotive,7859.63,Silicone Ice Cube Tray
+56,JumpXS,Brazil,Technology,4838.77,Scented Soy Candles
+57,Realblab,China,Fashion,3608.06,Outdoor Inflatable Pool
+58,Tavu,Brazil,Technology,9631.69,Ice Cream
+59,Meezzy,Cameroon,Food & Beverage,1083.58,Energy Protein Bars
+60,Feedspan,Philippines,Technology,1878.52,Vegetarian Stir Fry Sauce
+61,Devshare,Burkina Faso,Technology,4048.37,Pasta Maker Machine
+62,Oyoba,China,Healthcare,6454.71,Multi-Cooker
+63,Mudo,China,Technology,4431.96,Compost Bin
+64,Voomm,Peru,Technology,671.65,BBQ Jackfruit
+65,Skimia,China,Fashion,5905.37,Digital Food Scale
+66,Photobug,China,Fashion,3097.88,Mediterranean Flatbread
+67,Thoughtbridge,Serbia,Automotive,6107.06,Utility Cargo Pants
+68,Photolist,Hungary,Automotive,3255.72,Pear and Gorgonzola Salad
+69,Livefish,Russia,Food & Beverage,8457.1,Portable Electric Fan
+70,Mybuzz,Philippines,Technology,3358.5,Measuring Cups Set
+71,Lazzy,Serbia,Fashion,4247.45,Essential Oil Roller Bottles
+72,Topdrive,China,Automotive,3720.92,Magnetic Phone Car Mount
+73,Brainlounge,Indonesia,Automotive,3619.04,Handcrafted Wooden Jewelry Box
+74,Skyba,Indonesia,Automotive,4986.57,Coffee Capsule Dispenser
+75,Tagchat,Russia,Food & Beverage,3133.88,Garlic Parmesan Wings
+76,Podcat,Philippines,Fashion,8085.78,Classic Black Trousers
+77,Twimbo,Armenia,Food & Beverage,4796.31,Honey Graham Crackers
+78,Innotype,Sweden,Fashion,6641.6,Chili Lime Corn Chips
+79,Voomm,Belarus,Healthcare,3604.94,Asian Salad Mix
+80,Zoozzy,Greece,Technology,2879.69,Smart Scale
+81,Fanoodle,Armenia,Fashion,5683.63,Spicy Avocado Salsa
+82,Pixonyx,Macedonia,Food & Beverage,7445.62,Savory Italian Herbs
+83,DabZ,Venezuela,Fashion,3584.09,Cranberry Almond Biscotti
+84,Twitternation,Belarus,Fashion,2015.25,Jump Rope with Counter
+85,Flashset,China,Technology,4538.58,Travel Luggage Scale
+86,Skyndu,Indonesia,Food & Beverage,8423.85,Peanut Butter Banana Smoothie Mix
+87,Eayo,China,Fashion,2446.08,Savory Breakfast Sausage
+88,Jamia,Indonesia,Food & Beverage,9690.98,Laptop Backpack
+89,Ntags,Indonesia,Technology,8031.36,Classic Leather Wallet
+90,Quamba,Philippines,Automotive,59.33,Black Olives
+91,Oyope,China,Fashion,2550.05,Spicy Salsa Verde
+92,Skalith,Philippines,Healthcare,5313.07,Folding Exercise Bike
+93,JumpXS,Pakistan,Healthcare,531.22,Bodyweight Resistance Bands
+94,Brainbox,Bolivia,Technology,5322.08,Zesty Cilantro Lime Dressing
+95,Demizz,Russia,Fashion,1940.94,Maple Bacon Potato Chips
+96,Aimbo,Russia,Food & Beverage,4279.7,Folding Backpack Chair
+97,Gabtype,Philippines,Technology,8086.16,Electric Razor
+98,Skipfire,Canada,Healthcare,3092.71,Spinach and Ricotta Ravioli
+99,Tazzy,Ukraine,Technology,90.11,Nut Butter Cups
+100,Skajo,Greece,Healthcare,9548.25,Comfortable Jogger Pants

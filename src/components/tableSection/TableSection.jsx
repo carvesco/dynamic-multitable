@@ -9,7 +9,7 @@ function TableSection() {
   // const tables = ["clients", "sales", "products"]; // 3 tables: 2 on top, 1 below
   // const tables = ["clients", "sales", "products", "inventory"]; // 4 tables: 2x2 grid
 
-  const tables = ["clients", "sales", "products"];
+  const tables = ["clients", "sales", "products", "manufacturers", "salesmen"];
   const tableCount = tables.length;
 
   // Determine the CSS class based on table count
