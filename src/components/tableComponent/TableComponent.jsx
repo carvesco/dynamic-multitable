@@ -1,14 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import "./TableComponent.css";
 import { BiSearchAlt } from "react-icons/bi";
 import { Popover } from "react-tiny-popover";
 
-const TableComponent = ({ table, wordSearch, hideTable }) => {
+const TableComponent = ({ table, wordSearch, hideTable, minMaxValues }) => {
   const [data, setData] = useState([]);
   const [headers, setHeaders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
+  const [originalData, setOriginalData] = useState([]); // Store original data for filtering
 
   useEffect(() => {
     if (!wordSearch) {
@@ -26,6 +27,44 @@ const TableComponent = ({ table, wordSearch, hideTable }) => {
       )
     );
   }, [wordSearch]);
+
+  // Filter data based on minMaxValues for totalValue field
+  useEffect(() => {
+    if (!minMaxValues || !originalData.length) {
+      return;
+    }
+
+    const { min, max } = minMaxValues;
+
+    let filteredData = originalData.filter((row) => {
+      // Check if row has totalValue field
+      if (
+        row.totalValue !== undefined &&
+        row.totalValue !== null &&
+        row.totalValue !== ""
+      ) {
+        const value = parseFloat(row.totalValue);
+        // Filter only if value is a valid number
+        if (!isNaN(value)) {
+          return value >= min && value <= max;
+        }
+      }
+      // If no totalValue field or invalid value, include the row
+      return true;
+    });
+
+    // Apply word search filter if it exists
+    if (wordSearch && wordSearch !== " ") {
+      filteredData = filteredData.filter((row) =>
+        Object.values(row)
+          .join(" ")
+          .toLowerCase()
+          .includes(wordSearch.toLowerCase())
+      );
+    }
+
+    setData(filteredData);
+  }, [minMaxValues, originalData, wordSearch]);
 
   useEffect(() => {
     if (!loading && !error && data.length === 0) {
@@ -57,10 +96,13 @@ const TableComponent = ({ table, wordSearch, hideTable }) => {
     let filteredData = data.filter((row) =>
       Object.values(row).join(" ").toLowerCase().includes(word.toLowerCase())
     );
+    if (filteredData.length === 0) {
+      filteredData = ["No data available"];
+    }
     setData(filteredData);
   };
 
-  const loadCSVData = async () => {
+  const loadCSVData = useCallback(async () => {
     try {
       setLoading(true);
       setError(null);
@@ -75,17 +117,19 @@ const TableComponent = ({ table, wordSearch, hideTable }) => {
       const { headers, data } = parseCSV(csvText);
 
       setHeaders(headers);
-      setData(data);
+      setOriginalData(data); // Store original data
+      setData(data); // Set current data
     } catch (err) {
       setError(err.message);
       console.error("Error loading CSV:", err);
     } finally {
       setLoading(false);
     }
-  };
+  }, [table]);
+
   useEffect(() => {
     loadCSVData();
-  }, []);
+  }, [loadCSVData]);
 
   return (
     <div className="table-component-wrapper">
@@ -119,7 +163,10 @@ const TableComponent = ({ table, wordSearch, hideTable }) => {
         >
           <BiSearchAlt
             className="search-icon"
-            onClick={() => setIsPopoverOpen(!isPopoverOpen)}
+            onClick={() => {
+              loadCSVData();
+              setIsPopoverOpen(!isPopoverOpen);
+            }}
           />
         </Popover>
       </div>

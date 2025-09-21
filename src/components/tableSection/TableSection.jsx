@@ -3,7 +3,7 @@ import TableComponent from "../tableComponent/TableComponent";
 import "./TableSection.css";
 import { TablesContext } from "../../context/TableContext";
 
-function TableSection({ wordSearch }) {
+function TableSection({ wordSearch, minMaxValues }) {
   const { tables, setTables } = useContext(TablesContext);
   const tableCount = tables.length;
   const getTableSectionClass = (count) => {
@@ -22,6 +22,7 @@ function TableSection({ wordSearch }) {
             table={tableName}
             wordSearch={wordSearch}
             hideTable={() => hideTable(tableName)}
+            minMaxValues={minMaxValues}
           />
         ))}
       </div>

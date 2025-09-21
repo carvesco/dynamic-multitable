@@ -83,7 +83,7 @@
 }
 
 .data-table tbody tr:hover {
-  background-color: #f9f9f9;
+  background-color: #f4f3f380;
 }
 
 .data-table tbody tr:last-child td {
@@ -91,7 +91,7 @@
 }
 
 .data-table td {
-  color: #666;
+  color: #bcb7b7;
 }
 
 /* Loading, Error, and No Data States */

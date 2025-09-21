@@ -9,6 +9,17 @@
   gap: 1rem;
 }
 
+.filter-section h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.filter-section h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .search-input {
   padding: 0.5rem;
   font-size: 1rem;
@@ -42,20 +53,184 @@
   font-size: 1rem;
   border-radius: 4px;
   text-align: center;
+  padding: 0.1rem;
+  margin: 0.1rem;
+  flex: 1;
+  min-width: 0;
 }
 
 .displayed-table-item:hover {
   background-color: #e0e0e0;
   cursor: pointer;
 }
+
 .hidden-table-item {
   font-size: 1rem;
   border-radius: 4px;
   text-align: center;
   border: 1px solid #ccc;
+  padding: 0.1rem;
+  margin: 0.1rem;
+  flex: 1;
+  min-width: 0;
 }
 
 .hidden-table-item:hover {
   background-color: #8f8f8f;
   cursor: pointer;
+}
+
+/* Tables Grid Container */
+.tables-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tables-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Slider Container Styles */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.slider-container label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Range Slider Styles */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+input[type="range"]:hover {
+  background: #bbb;
+}
+
+/* Webkit (Chrome, Safari, Edge) Slider Thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  background: #004085;
+  transform: scale(0.95);
+}
+
+/* Firefox Slider Thumb */
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+input[type="range"]::-moz-range-thumb:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+}
+
+input[type="range"]::-moz-range-thumb:active {
+  background: #004085;
+  transform: scale(0.95);
+}
+
+/* Firefox Slider Track */
+input[type="range"]::-moz-range-track {
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  border: none;
+}
+
+input[type="range"]:hover::-moz-range-track {
+  background: #bbb;
+}
+
+/* Edge Slider Styles */
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 6px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 3px;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+/* Slider Value Display */
+.slider-value {
+  display: inline-block;
+  min-width: 30px;
+  padding: 0.25rem 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 0.5rem;
+}
+
+/* Individual Slider Row */
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.slider-row label {
+  min-width: 40px;
+  margin-bottom: 0;
 }
