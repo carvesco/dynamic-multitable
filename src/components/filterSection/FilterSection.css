@@ -1,0 +1,8 @@
+.filter-section {
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

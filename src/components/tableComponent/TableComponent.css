@@ -1,0 +1,211 @@
+/* Table Styles */
+.table-container {
+  overflow: auto;
+  margin: 0;
+  height: 100%;
+  flex: 1;
+  border: 1px solid #dee2e6;
+  border-radius: 0 0 8px 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Table wrapper for individual tables in grid */
+.table-component-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 250px; /* Reduced minimum height */
+  max-width: 100%;
+  overflow: hidden;
+  position: relative; /* Ensure proper positioning */
+}
+
+/* Table title styling */
+.table-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  flex-shrink: 0;
+}
+
+/* Custom scrollbar styles for better UX */
+.table-container::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 400px; /* Reduced min-width for better multi-table view */
+  white-space: nowrap; /* Prevent text wrapping in cells */
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px 12px; /* Reduced padding for more compact view */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Show ... for long text */
+  max-width: 150px; /* Limit individual cell width */
+}
+
+.data-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.data-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table td {
+  color: #666;
+}
+
+/* Loading, Error, and No Data States */
+.loading,
+.error,
+.no-data {
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.loading {
+  background-color: #f0f8ff;
+  color: #007acc;
+  border-color: #007acc;
+}
+
+.error {
+  background-color: #ffeaea;
+  color: #d63031;
+  border-color: #d63031;
+}
+
+.no-data {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border-color: #dee2e6;
+}
+
+.table-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), transparent);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.table-container:hover::before {
+  opacity: 1;
+}
+
+.table-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), transparent);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.table-container:hover::after {
+  opacity: 1;
+}
+
+/* Responsive design for horizontal scrolling */
+@media (max-width: 1200px) {
+  .data-table th,
+  .data-table td {
+    max-width: 120px;
+    padding: 6px 10px;
+  }
+
+  .table-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    font-size: 0.85rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 6px 8px;
+    max-width: 100px;
+    min-width: 80px;
+  }
+
+  .table-title {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-container {
+    font-size: 0.75rem;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 4px 6px;
+    max-width: 80px;
+    min-width: 60px;
+  }
+
+  .table-title {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+}
