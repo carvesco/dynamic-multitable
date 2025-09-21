@@ -1,5 +1,7 @@
+import { useContext } from "react";
 import TableComponent from "../tableComponent/TableComponent";
 import "./TableSection.css";
+import { TablesContext } from "../../context/TableContext";
 
 function TableSection() {
   // Define the tables you want to display
@@ -9,7 +11,7 @@ function TableSection() {
   // const tables = ["clients", "sales", "products"]; // 3 tables: 2 on top, 1 below
   // const tables = ["clients", "sales", "products", "inventory"]; // 4 tables: 2x2 grid
 
-  const tables = ["clients", "sales", "products", "manufacturers", "salesmen"];
+  const { tables } = useContext(TablesContext);
   const tableCount = tables.length;
 
   // Determine the CSS class based on table count

@@ -1,8 +1,34 @@
 .filter-section {
   max-width: 20%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
+  gap: 1rem;
+}
+
+.displayed-table-item {
+  background-color: #f0f0f0;
+  color: black;
+  font-size: 1rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.displayed-table-item:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+.hidden-table-item {
+  font-size: 1rem;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.hidden-table-item:hover {
+  background-color: #8f8f8f;
+  cursor: pointer;
 }
