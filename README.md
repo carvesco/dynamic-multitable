@@ -1,12 +1,12 @@
-# React + Vite
+# Dynamic Multi-table
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the web app that I developed for the assignemnt, the layout it similar to the one used in the document, i think is the best one for diplaying tables and filters. The CSV file were generated using [https://www.mockaroo.com/] I assumed all the files/tables had the same fields, id does not make sense to search on all tables if some substring can only appear in some tables.
 
-Currently, two official plugins are available:
+In the filters section we have:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- First we have a button to **reset** all the filters, and have all the tables displayed.
+- Next we have an input to **search** across all table certain substring, if the table does not contain the substring, the table is hidden.
+- The **Displayed Tables** section are button that represent the state of the table, if it is displayed or not, the can be pressed to show or hide the respective table. And finally
+- Finally and slider to filter the **TOTALVALUE** field in all tables
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+En each table we also can search for substring but only in the selected table, pressing the magnifying glass button opens a popover that let us search for the substring we want to find.
