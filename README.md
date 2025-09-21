@@ -1,5 +1,28 @@
 # Dynamic Multi-table
 
+To run locally follow the next steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/carvesco/dynamic-multitable.git
+   cd dynamic-multitable
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the app.
+
 This is the web app that I developed for the assignemnt, the layout it similar to the one used in the document, i think is the best one for diplaying tables and filters. The CSV file were generated using [https://www.mockaroo.com/] I assumed all the files/tables had the same fields, id does not make sense to search on all tables if some substring can only appear in some tables.
 
 In the filters section we have:
