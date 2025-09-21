@@ -1,0 +1,101 @@
+sale_id,client,product,amount,country,totalValue
+1,Giffie Scintsbury,Zucchini Noodles,64.94,Philippines,8644.72
+2,Feliks Pawling,Vegan Chocolate Cake Mix,496.65,Honduras,5739.88
+3,Alidia Thormwell,Biodegradable Trash Bags,358.65,Ethiopia,626.85
+4,Kirstyn Vedenyapin,Spiced Pumpkin Soup,466.93,Uzbekistan,2114.64
+5,Maighdiln Obeney,Over-the-Door Hooks,7.71,Indonesia,5819.18
+6,Kassandra Renison,Cranberry Almond Biscotti,451.9,Argentina,8931.03
+7,Agatha Ropking,Kettle Chip Variety Pack,865.11,Philippines,7594.62
+8,Ignacius Green,Organic Quinoa Chips,821.03,United States,8990.54
+9,Raymund Simenot,Adjustable Laptop Stand,96.25,Portugal,4335.04
+10,Hope Poynor,Reversible Comforter Set,82.27,Indonesia,6639.97
+11,Brig Dumphy,Kettle Corn Popcorn,579.17,Greece,5747.15
+12,Lanny Hakey,Camping Tent,317.37,France,6585.53
+13,Curcio Wordsley,Yoga Blocks,66.02,Peru,2172.12
+14,Lorelle Proudley,Organic Black Bean Burger,537.62,Comoros,3036.0
+15,Hyacinthe Bohden,Sketchbook,885.7,Egypt,3846.37
+16,Orin Mattiessen,Electric Heat Pad,245.07,China,3634.48
+17,Barny Haglinton,Digital Photo Frame,333.63,Thailand,12.21
+18,Jessi Slide,Dried Cranberries,676.95,Argentina,9292.56
+19,Flin Mundwell,Wooden Kitchen Utensil Set,550.38,China,8929.51
+20,Danny Stevings,Ankle Boots,378.94,Luxembourg,467.69
+21,Linda Caddan,Wi-Fi Enabled Smart Light Switch,589.73,China,1381.86
+22,Ronnie Graves,Travel Document Organizer,568.87,China,9820.27
+23,Verina Wesley,Electric Toothbrush Holder,307.09,Sweden,2805.02
+24,Richmond Boustead,Herb-Infused Olive Oil,438.88,China,1406.28
+25,Cathy Jost,Ice Cream Maker,562.06,China,7281.7
+26,Samson Gini,Quinoa Salad,853.95,Japan,1227.07
+27,Astrid Wiltshier,Smoked Salmon,323.68,Yemen,6319.49
+28,Katrina Aspray,Plant-Based Meal Prep Containers,507.28,Greece,851.42
+29,Flora Bagnal,High-Waisted Skirt,503.62,Portugal,7507.5
+30,Ardra Lias,Cordless Water Flosser,915.92,Syria,9753.78
+31,Patrizia Nelthrop,Window A/C Unit,815.96,Brazil,8573.73
+32,Jelene Venners,Chocolate Protein Powder,455.12,China,8160.24
+33,Niven Toppas,Trackpad for Laptop,61.92,Indonesia,6330.27
+34,Sherie Wimbush,Tomato Paste,195.11,China,4563.73
+35,Kincaid McCafferty,Magnetic Phone Case,635.81,Indonesia,1830.45
+36,Griz Rooney,USB-C Hub,494.02,Indonesia,1711.83
+37,Mirna McClay,BBQ Sauce,588.49,China,7010.79
+38,Abe Keel,Backpack,43.36,Peru,3134.36
+39,Constanta Bortolomei,Stylish Wireless Earbuds,236.8,Germany,9555.45
+40,Avigdor Coombes,Spice Rack,50.88,Russia,8757.38
+41,Jessie Edmunds,Bamboo Cotton Tank Top,659.92,United States,5788.16
+42,Ferdinand Siveyer,Falafel Mix,369.95,Brazil,2149.08
+43,Leodora Scantlebury,Wall Planner,854.19,Thailand,9747.86
+44,Karrie McNeice,Halloween Decoration Set,216.17,Poland,9187.19
+45,Nicoli Winslade,Coffee Maker,872.86,Italy,2752.53
+46,Archambault Petroulis,Dishwasher Safe Cutting Board,396.57,Poland,1411.04
+47,Roshelle Lindenbaum,Apple Pie Filling,25.19,China,9026.85
+48,Nevsa Millan,Beef Stew Meat,190.23,Thailand,2880.24
+49,Jess Rohlfing,Basil Pesto Pasta,406.46,Poland,4159.17
+50,Brandtr O'Hartnedy,Gardening Gloves with Claws,472.16,Greece,8501.1
+51,Meridel Vickarman,Winter Knit Beanie,942.14,Russia,3770.57
+52,Silvio Scanlin,Roasted Garlic Pasta Sauce,193.96,Tanzania,1080.37
+53,Mildrid Arbuckel,Pasta Salad Kit,75.77,Canada,4267.73
+54,Aylmar Klawi,Wooden Puzzle Game,857.93,Sweden,1756.08
+55,Ruthy Pottery,Antique Style Clock,627.22,Finland,8891.61
+56,Bram Gorriessen,Silicone Wine Glasses,682.31,Albania,4551.53
+57,Maxy Crockatt,Vegan Tacos,360.59,Burkina Faso,9132.85
+58,Bernie Simonot,Car Escape Tool,155.08,Armenia,5065.35
+59,Brittne Penton,LED Strip Lights,852.99,Russia,5554.73
+60,Jarred D'Almeida,A-Line Skirt,56.74,Russia,5862.98
+61,Daffy Garry,Pineapple Salsa,716.67,China,6139.13
+62,Ruy Casterou,Honey Garlic Chicken,224.0,China,1609.79
+63,Starlene Allanby,Legging Pants,471.33,Poland,8757.22
+64,Stearn Rhubottom,Window Bird Feeder,101.77,Nigeria,9373.76
+65,Orbadiah Harly,Car Seat Organizer,109.22,Slovenia,1816.34
+66,Jessee Asel,Teriyaki Chicken Skewers,712.86,Finland,418.67
+67,Morganica Siddle,Beef Chili,551.71,Indonesia,6989.58
+68,Patti Hellwig,Sliced Bell Peppers,545.06,Macedonia,6788.97
+69,Gavrielle Drayton,Bamboo Bathtub Caddy,35.54,France,5566.85
+70,Cassie Dunbabin,Children's Backpack,523.04,China,9427.16
+71,Romain Nucciotti,Poppy Seed Dressing,986.81,China,4609.62
+72,Kippie Aust,Garlic Parmesan Roasted Nuts,492.46,China,5889.17
+73,Josephina Wreight,Smart LED Desk Lamp,505.7,China,6156.02
+74,Juli Speak,Low-Fat Yogurt,50.85,Russia,6958.73
+75,Teodoro Stemson,Kettle BBQ Grill,291.93,China,4107.5
+76,Carly Calam,Pet Grooming Kit,87.56,Peru,6931.29
+77,Dayna Tomasutti,Portable Speaker Stand,462.04,Serbia,9428.65
+78,Ricky Bohills,Pumpkin Pancake Mix,259.49,Ghana,861.65
+79,Cory Eytel,Red Lentil Pasta,714.96,China,8980.85
+80,Pieter Delouch,Pleated Midi Dress,940.59,China,51.46
+81,Ophelia Balding,Vanilla Pudding Mix,498.04,Mongolia,6834.6
+82,Riannon Churchman,Lasagna Noodles,745.01,Sweden,3161.09
+83,Ronald Jessope,Multi-Cooker,933.38,Philippines,4730.5
+84,Sallie Gianneschi,Chili Lime Seasoning,905.21,Greece,119.42
+85,Consalve Corish,Backpack,352.72,Brazil,8724.75
+86,Marion Ouldcott,Rustic Wooden Picture Frame,398.4,Portugal,9618.58
+87,Chuck Ludlow,Arcade Game Machine,216.78,Indonesia,2641.64
+88,Aldwin Renahan,Kids' Activity Book,855.89,China,59.0
+89,Demetre Turnell,Oven-Baked Cheese Crisps,253.92,Yemen,6582.16
+90,Berny Lakin,Teriyaki Chicken Bowl,535.15,Morocco,7734.92
+91,Tonie Brewins,Quinoa Salad,111.5,Czech Republic,951.6
+92,Modesta Riteley,Kids' Science Experiment Kit,569.38,Canada,4034.47
+93,Ethelbert Masden,Cranberry Almond Cookies,339.48,Russia,3939.93
+94,Annalise Torrese,Watercolor Paint Set,170.43,Croatia,7180.16
+95,Hurlee Rankmore,Instant Pot,11.81,Indonesia,6501.41
+96,Worth McCahey,Pet Hair Removal Roller,989.01,Nigeria,5991.72
+97,Beryle Briddle,Casual Long Cardigan,309.04,China,8545.13
+98,Gordy Patterfield,Electric Stir Fry Pan,777.84,Croatia,2278.43
+99,Hal Jiri,Cinnamon Sugar Tortilla Chips,568.09,Russia,6955.6
+100,Catlin McDunlevy,Lentil Vegetable Curry,480.08,Malaysia,3478.19

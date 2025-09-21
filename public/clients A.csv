@@ -1,0 +1,101 @@
+sale_id,client,product,amount,country,totalValue
+1,Bertina Dahler,Sliced Avocado,763.2,Brazil,6985.64
+2,Kelby Buffham,Garden Tool Belt,310.31,Indonesia,4112.66
+3,Othella Edds,Portable Massage Table,921.29,Peru,8861.28
+4,Ilse Christley,Portable Bluetooth Keyboard,403.64,Indonesia,3429.29
+5,Jami Barock,Wooden Children's Play Kitchen,531.87,Indonesia,9432.53
+6,Hildagarde Manthroppe,Kale Salad Kit,521.14,Ukraine,3686.54
+7,Regine McGinnell,Pet Tracking Collar,902.46,Poland,4920.91
+8,Rip Pawels,Wrist Support Brace,266.01,Finland,6473.41
+9,Cherye Sanchiz,Portable Leaf Blower,303.53,Canada,776.36
+10,Karney Shawley,Plant Watering Spikes,251.03,China,6691.27
+11,Petronella Camus,Adjustable Pet Feeder,215.48,Nigeria,8662.29
+12,Blakelee Filochov,Lemon Zest Olive Oil,891.83,Guatemala,4312.91
+13,Jewel Scrafton,Mediterranean Olives,931.58,China,3659.05
+14,Vanya Calvey,Organic Coconut Oil,517.13,China,3068.97
+15,Dimitry Sawbridge,USB Flash Drive,251.61,Venezuela,8549.21
+16,Rock Kobierski,Pistachios,121.96,China,8180.35
+17,Kellby Goodburn,Manual Coffee Grinder,184.02,Haiti,7274.07
+18,Horst Woodley,Multifunctional Baby Bottle Warmer,988.29,Russia,7279.75
+19,Niki Semrad,Spicy Avocado Salsa,440.8,China,4787.51
+20,Star Strangeways,Rechargeable Laptop Battery Pack,310.46,Guatemala,810.57
+21,Jenda McCoole,Crafting Kit,669.64,China,4081.55
+22,Ryon Lilion,Portable Campfire,564.8,Portugal,9470.7
+23,Ibrahim Giddings,Comfortable Bed Pillow,831.44,China,6281.35
+24,Dominique Cabel,Air Fryer,735.47,Portugal,7983.35
+25,Davita Livezey,Ceramic Planter Set,539.83,Poland,5520.61
+26,Norrie Suscens,Honey Mustard Chicken Breasts,217.82,Ukraine,9175.85
+27,Maire Seamer,Smart LED Light Strip,406.17,Philippines,3454.7
+28,Redford Laise,Pet Safety Belt for Car,341.59,China,277.29
+29,Robinia McLeod,Organic Ramen Noodles,433.73,Venezuela,9837.84
+30,Brand Comerford,Guitar Tuner,32.79,Philippines,8501.95
+31,Marla Ayree,Garlic Naan Bread,692.95,Russia,853.27
+32,Clayborne Chatwood,Watercolor Paint Set,209.0,Ireland,4175.87
+33,Madison MacCafferky,Kitchen Scale,116.86,Indonesia,3544.2
+34,Giacobo L'Episcopio,DIY Organic Gardening Kit,755.61,Argentina,3680.02
+35,Britt Brideaux,Travel Pillow,440.5,Niger,3865.0
+36,Orton Pimmocke,Kettle Corn Popcorn,126.5,Costa Rica,4434.22
+37,Edouard Franzini,Wall Decals for Kids,307.65,Palestinian Territory,6623.56
+38,Farrand Calcutt,Digital Food Scale,409.62,France,5002.49
+39,Fremont Vany,Portable Camping Shower,523.92,Argentina,2376.94
+40,Janetta Walkling,Sriracha Chili Sauce,503.83,Argentina,8795.76
+41,Mirabel Ganiford,Sweet Chili Thai Sauce,777.54,Norway,9320.29
+42,Jason Balam,Handmade Wooden Utensil Set,149.82,China,4813.07
+43,Basil Davies,Sunglasses Case,177.83,China,7292.95
+44,Sammy Cleynaert,Personal Blender with Travel Lid,128.96,El Salvador,4611.7
+45,Hyatt Nudds,Pasta Portion Control Measure,300.12,Argentina,7063.2
+46,Marley Derry,Peanut Butter Protein Balls,994.12,Thailand,7219.51
+47,Kalie Currey,Foldable Electric Scooter,242.14,Czech Republic,2075.09
+48,Irena Blagbrough,Infrared Thermometer Gun,278.69,Uzbekistan,4871.1
+49,Vidovik Walbridge,Banana Chips,425.11,Japan,752.09
+50,Maire Whimper,Shower Curtain Hooks,293.52,Indonesia,5756.86
+51,Martelle Trapp,Diced Tomatoes (canned),300.21,Afghanistan,5250.26
+52,Noach Gregs,Ceramic Knife Set,352.29,Russia,6141.46
+53,Addy Hender,Memory Foam Pillow,980.67,Thailand,9411.43
+54,Adriano Chopin,High-Speed Hand Blender,175.41,Philippines,7814.07
+55,Dorris Frier,Scented Soy Candles,960.95,Philippines,3967.75
+56,Dugald Blasio,Pet Water Fountain with Filtration,307.67,Russia,8851.07
+57,Gayler McFarlan,Chicken Salad Kit,914.7,Honduras,9161.89
+58,Marabel Furst,Reflective Safety Vest,114.61,Brazil,1641.36
+59,Vikky Poytheras,Personal Blender with Travel Lid,322.24,Philippines,9885.52
+60,Alice Gabala,Pepperoni Pizza Roll-Ups,273.77,Finland,3124.7
+61,Sosanna Boerderman,Deluxe First Aid Kit,489.96,Poland,6903.43
+62,Bertrando Buscher,Indestructible Dog Toy,258.04,Indonesia,9016.97
+63,Kerrill Obern,Coffee Subscription Service,520.61,Canada,5451.23
+64,Idaline Chamberlaine,Inspirational Wall Art,557.83,China,6087.23
+65,Lynnelle Menichi,Tuna Fish (canned),7.35,Indonesia,8010.47
+66,Lauraine Drew,Herbal Tea Infuser,35.09,Ivory Coast,8043.83
+67,Orren Iwanicki,Pesto Pasta Sauce,169.19,Sweden,6324.31
+68,Ware Frissell,Banana Peanut Butter Smoothie,956.22,China,1513.9
+69,Adora Ratie,Vegetarian Chili,811.35,Niger,8360.16
+70,Cy Escala,Organic Green Tea,302.89,China,1806.14
+71,Belvia Hallock,Cinnamon Rolls,693.0,Indonesia,1732.4
+72,Ulric Barras,Safety Pin Dispenser,981.48,Sweden,1502.4
+73,Jedediah Schuler,Fruit Medley Juice,41.71,Portugal,6792.08
+74,Alister Pendell,Cable Knit Beanie,393.69,Ukraine,8769.58
+75,Chucho Smitten,Roasted Sweet Corn,442.9,France,8888.17
+76,Rani Slipper,Almond Crunch Granola Bars,649.37,Philippines,9145.43
+77,Miltie Hackwell,Chocolate Chip Pancake Mix,175.12,China,327.78
+78,Halsey Keedy,Balsamic Vinaigrette,89.13,Ethiopia,140.39
+79,Virge Musslewhite,Frozen Cauliflower Rice,832.3,Norway,1309.42
+80,Juliana Abthorpe,Collapsible Storage Crates,770.03,Indonesia,4931.7
+81,Conway Malloy,Motorcycle Phone Mount,308.58,Honduras,346.09
+82,Joli Redd,Sweet and Spicy Barbecue Sauce,744.25,United States,4516.78
+83,Heloise Berends,Compact Shoe Rack,240.9,Norway,6065.33
+84,Tiena Bensley,Travel Laundry Bag,238.5,China,7633.07
+85,Bing Morforth,Beef Jerky,237.6,Thailand,7978.54
+86,Matilda Lovel,Organic Apples,222.88,Denmark,340.7
+87,Billy Gilstin,Electric Milk Frother,535.37,Nigeria,200.89
+88,Daveen Ravelus,Collapsible Pet Dog Bowl,59.33,El Salvador,4961.21
+89,Delphine Duffitt,Pineapple Chunks (canned),913.57,Indonesia,3538.86
+90,Torrin Mellonby,Roasted Vegetable Medley,589.28,China,3424.37
+91,Audre De Freitas,Portable Air Compressor,633.52,Peru,265.92
+92,Kyle Frane,Wireless Smart Plug,957.37,Sweden,8953.12
+93,Chrystal Mines,LED Strip Light Kit,95.33,China,2937.16
+94,Mignon Macura,Cold Brew Coffee Concentrate,125.99,France,5794.02
+95,Claudie Stredder,Avocados,185.61,Philippines,326.59
+96,Norean Widdocks,Foldable Picnic Table,891.95,Brazil,2155.69
+97,Thibaud MacCauley,Sweet Chili Sauce,807.22,Ukraine,1121.32
+98,Cinderella Wines,Vegan Taco Seasoning,659.11,Thailand,1793.09
+99,Carlynne Collete,Mobile Workbench,570.79,Russia,556.79
+100,Dominique Mougenel,Electric Heat Press Machine,779.46,China,6385.77

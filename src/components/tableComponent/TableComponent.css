@@ -9,6 +9,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  z-index: 1; /* Lower z-index for table container */
 }
 
 /* Table wrapper for individual tables in grid */
@@ -24,15 +25,10 @@
 
 /* Table title styling */
 .table-title {
-  margin: 0 0 0.5rem 0;
+  margin: 0;
   font-size: 1rem;
   color: #333;
   text-align: center;
-  padding: 0.5rem;
-  background-color: #f8f9fa;
-  border-radius: 8px 8px 0 0;
-  border: 1px solid #dee2e6;
-  border-bottom: none;
   flex-shrink: 0;
 }
 
@@ -208,4 +204,50 @@
     font-size: 1rem;
     padding: 0.4rem;
   }
+}
+
+.table-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  flex-shrink: 0;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  color: #666;
+  cursor: pointer;
+}
+.search-icon:hover {
+  color: #333;
+  font-size: 1.3rem;
+}
+.popover-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: #caefad;
+  border: 1px solid #ddd;
+  z-index: 9999; /* Much higher z-index */
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Ensure proper positioning */
+}
+
+/* Ensure react-tiny-popover containers are on top */
+.react-tiny-popover-container {
+  z-index: 10000 !important;
 }

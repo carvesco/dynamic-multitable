@@ -1,0 +1,101 @@
+sale_id,client,product,amount,country,totalValue
+1,Morie Youde,Coconut Curry Chicken,486.99,Russia,2208.76
+2,Peggy Dilrew,Organic Vanilla Bean Ice Cream,60.14,Ireland,6864.1
+3,Kissiah Ferrini,Electrolyte Water Bottle,942.6,China,7571.24
+4,Shannon Govey,Wooden Puzzle Game,679.99,Indonesia,7733.07
+5,Hugibert Windridge,Electric Blanket,11.53,China,4053.4
+6,Malvin Losty,Herb Drying Rack,443.39,Saudi Arabia,7090.91
+7,Beatrice Garaghan,Sparkling Blood Orange Soda,151.59,Argentina,3431.26
+8,Marylee Vaisey,Sesame Garlic Noodles,529.96,Colombia,6420.26
+9,Scarlet Gittoes,Lemon Garlic Marinade,300.91,Ukraine,4076.84
+10,Ivett Wordington,Portable Water Filter,354.72,Guatemala,1863.91
+11,Stefanie Phalp,Garden Hose Reel,454.73,Sweden,7525.94
+12,Jareb Despenser,Portable UV Sterilizer,832.62,China,6915.81
+13,Evelin Rodie,Sushi Rice,269.89,Sierra Leone,3670.6
+14,Elwood Patise,Kids' Dinosaur-Themed Lunchbox,661.82,Nigeria,8482.9
+15,Alfred Cupper,Rustic Italian Bread,545.38,Indonesia,7379.63
+16,Lenna Gyde,Low-Fat Cottage Cheese,233.83,Russia,9834.44
+17,Jorge Nevin,Smashed Avocado with Lime,464.23,Norway,4935.17
+18,Sara McDuffie,Adjustable Window Blind,282.85,China,6222.38
+19,Valentine McClelland,Vegetable Stir-Fry Kit,197.67,Greece,9649.42
+20,Ware Cunradi,Black Bean Salsa,606.61,Philippines,4002.4
+21,Leonidas Ramage,Olive Oil,500.86,Chad,7024.92
+22,Gizela Wash,Multifunctional Baby Bottle Warmer,665.76,Philippines,8818.26
+23,Jdavie Kineton,Mixed Berry Smoothie Pack,204.13,Cuba,9056.2
+24,Dion Upjohn,Californian Raisins,914.43,Colombia,1796.32
+25,Tara De Beauchemp,Spinach Feta Wraps,836.3,Colombia,6576.83
+26,Karyn Markwelley,Almond Quinoa Salad,721.04,China,3143.94
+27,Maddalena De Leek,Bodyweight Resistance Bands,257.64,Poland,105.74
+28,Pen Domoney,Spiced Pumpkin Soup,885.94,Philippines,3303.23
+29,Koralle Gilbody,Herbed Chicken Breast,266.67,Portugal,4281.9
+30,Pamela Authers,Cacao Powder,831.65,France,4805.59
+31,Willow Tixier,Folding Pocket Knife,689.33,Russia,7540.18
+32,Solly Fitzsymons,Creamy Garlic Dressing,104.17,Indonesia,3552.86
+33,Amandy Blockey,Ankle Boots,447.86,Russia,1192.34
+34,Josie Guiet,Portable Air Pump,388.69,Sweden,8669.73
+35,Yank Bagley,Kids' Craft Supplies Set,460.26,Cuba,3577.58
+36,Brinn Fibben,Digital Camera,668.58,Indonesia,5747.45
+37,Sybyl Acors,Ginger Turmeric Tea,811.05,Czech Republic,5557.25
+38,Avictor Pomeroy,Herbed Couscous,893.88,France,1253.24
+39,Kimmy Slot,USB Desk Fan,944.81,Russia,639.21
+40,Orrin Harrow,Travel Organizer,113.56,Argentina,9322.3
+41,Lynette Raffon,Body Wash,647.08,Philippines,1912.97
+42,Warden Lomasney,Organic Honeycrisp Apples,260.23,Portugal,1876.81
+43,Othelia Willbraham,Sweet Potatoes (organic),950.71,Indonesia,7672.54
+44,Abie Larmet,Coconut Water,833.83,Pakistan,1201.99
+45,Annissa Ludlom,Travel Hair Straightener,900.44,Senegal,4952.72
+46,Jenda Daveley,Tailgating Set,466.73,Western Sahara,5868.23
+47,Kyle Callow,Portable Phone Mug Holder,674.09,China,5117.94
+48,Charley Wells,Electric Egg Cooker,339.32,China,4612.23
+49,Ivor Barnet,Chocolate Fudge Brownie Mix,933.93,China,3607.81
+50,Julio Coneron,Vegan Chocolate Cake Mix,429.86,South Korea,2562.35
+51,Florida Thacke,Vegetable Quinoa Bowl,39.27,Finland,5009.58
+52,Franky Canellas,Zucchini,376.35,France,1133.03
+53,Flori Cristofaro,Gaming Headset,738.85,Indonesia,1159.5
+54,Dex McGee,Bamboo Cotton Tank Top,263.2,Argentina,8521.34
+55,Kendricks Giannini,Heavy Duty Gardening Tool Set,774.98,Portugal,8280.6
+56,Lanita Matuskiewicz,Repair Tool Set for Home Improvement,550.5,Libya,5961.13
+57,Ludovico Golda,Organic Whole Wheat Flour,701.4,China,4613.89
+58,Monte Rix,Nutty Trail Mix,25.92,Albania,4341.36
+59,Dennie Brew,Tea Set with Infuser,897.99,Indonesia,4005.33
+60,Lana Medforth,Portable Laptop Table,256.34,Cuba,6922.1
+61,Lincoln Vaney,Lasagna Noodles,152.19,Brazil,5960.17
+62,Hayyim Pedrick,Organic Coconut Flour,750.61,South Africa,6235.72
+63,Rossy Shepton,Spicy Italian Sausage,288.75,Indonesia,8477.27
+64,Zorana Peteri,Sunglasses,718.89,China,5276.6
+65,Eddy Rackstraw,Flavored Instant Oatmeal,840.78,Brazil,397.86
+66,Vance Turneaux,Gaming Headset,751.0,Ireland,591.23
+67,Nancey Smithe,Multi-Layer Food Steamer,306.45,Czech Republic,7034.56
+68,Roderich Frushard,Pomegranate Juice,816.71,Russia,4268.42
+69,Enrica Trask,Organic Whole Wheat Flour,91.94,China,6966.58
+70,Darline Jent,Cinnamon Sugar Tortilla Chips,985.77,China,9866.98
+71,Hortense Mudle,Lemon Dill Chicken Skewers,493.82,Azerbaijan,7085.71
+72,Doro Doyley,Raspberry Lemonade Mix,714.02,Indonesia,2732.52
+73,Guntar Bickerstaffe,Over-Ear Headphones,495.76,Sweden,9056.27
+74,Katti Lillywhite,Kettle Corn Popcorn,887.49,Portugal,3507.39
+75,Hort Reoch,Honey Glazed Carrots,813.46,Nigeria,1163.0
+76,Peri Curro,Teriyaki Beef Strips,350.37,Colombia,3680.84
+77,Bengt Juden,Smart WiFi Plug,437.51,Brazil,3024.29
+78,Petra Crosskill,Vanilla Protein Powder,704.12,Canada,4827.06
+79,Suzann Goatcher,Scent Diffuser,154.24,Greece,4639.46
+80,Royall Barten,Laptop Backpack,151.12,China,8594.24
+81,Edie Gaither,Barbecue Chicken Pizza,501.83,Ukraine,1964.06
+82,Armand McBay,Sporty Cap,755.11,Peru,7175.28
+83,Allen Lishman,Silicone Baking Molds,138.12,Russia,5901.81
+84,Libbey Mosen,Coffee Capsule Dispenser,283.12,China,413.53
+85,Matt Levis,Ripped Boyfriend Jeans,657.66,Greece,9978.95
+86,Delmer Melton,Adjustable Kitchen Broom Stand,519.46,Mongolia,7270.54
+87,Harlen Burkman,Floral Summer Dress,178.19,China,4285.31
+88,Natassia Renneke,Non-Stick Crepe Pan,969.45,China,5404.81
+89,Jeanette Bastistini,Camping Lantern,34.57,Morocco,9228.31
+90,Horatio Coatts,Almond Butter Cookies,308.25,Argentina,5382.46
+91,Kennedy McAree,Yoga Strap,215.89,United States,4104.12
+92,Dani Brompton,Coconut Milk,533.94,China,3091.9
+93,Tull MacDavitt,Red Lentils,878.39,Portugal,1241.04
+94,Renata Fassbender,Crispy Kale Chips,159.31,China,6276.48
+95,Meriel Teresse,Cucumber Relish,448.91,China,3996.75
+96,Laural Leftwich,Foot Massager Machine,751.79,Germany,1810.79
+97,Jeramey Lagneaux,Creamy Garlic Dressing,516.41,Indonesia,6906.99
+98,Rosemarie Abrahams,Coconut Milk,517.54,Philippines,5150.66
+99,Edan Clarycott,Smoked Salmon,563.52,Indonesia,2347.85
+100,Vergil Yakebovich,Sea Salt Caramel Popcorn,245.74,Portugal,9691.98

@@ -1,11 +1,37 @@
 import { useState, useEffect } from "react";
 import "./TableComponent.css";
+import { BiSearchAlt } from "react-icons/bi";
+import { Popover } from "react-tiny-popover";
 
-const TableComponent = ({ table }) => {
+const TableComponent = ({ table, wordSearch, hideTable }) => {
   const [data, setData] = useState([]);
   const [headers, setHeaders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [isPopoverOpen, setIsPopoverOpen] = useState(false);
+
+  useEffect(() => {
+    if (!wordSearch) {
+      return;
+    }
+    if (wordSearch === " ") {
+      loadCSVData();
+    }
+    setData((prevData) =>
+      prevData.filter((row) =>
+        Object.values(row)
+          .join(" ")
+          .toLowerCase()
+          .includes(wordSearch.toLowerCase())
+      )
+    );
+  }, [wordSearch]);
+
+  useEffect(() => {
+    if (!loading && !error && data.length === 0) {
+      hideTable();
+    }
+  }, [loading, error, data, hideTable]);
 
   // Function to parse CSV text into objects
   const parseCSV = (csvText) => {
@@ -24,40 +50,79 @@ const TableComponent = ({ table }) => {
     return { headers, data };
   };
 
-  // Load CSV data on component mount
-  useEffect(() => {
-    const loadCSVData = async () => {
-      try {
-        setLoading(true);
-        setError(null);
+  const searchTable = (word) => {
+    if (!word) {
+      return;
+    }
+    let filteredData = data.filter((row) =>
+      Object.values(row).join(" ").toLowerCase().includes(word.toLowerCase())
+    );
+    setData(filteredData);
+  };
 
-        // Import the CSV file from public folder
-        const response = await fetch(`/${table}.csv`);
-        if (!response.ok) {
-          throw new Error("Failed to load CSV file");
-        }
+  const loadCSVData = async () => {
+    try {
+      setLoading(true);
+      setError(null);
 
-        const csvText = await response.text();
-        const { headers, data } = parseCSV(csvText);
-
-        setHeaders(headers);
-        setData(data);
-      } catch (err) {
-        setError(err.message);
-        console.error("Error loading CSV:", err);
-      } finally {
-        setLoading(false);
+      // Import the CSV file from public folder
+      const response = await fetch(`/${table}.csv`);
+      if (!response.ok) {
+        throw new Error("Failed to load CSV file");
       }
-    };
 
+      const csvText = await response.text();
+      const { headers, data } = parseCSV(csvText);
+
+      setHeaders(headers);
+      setData(data);
+    } catch (err) {
+      setError(err.message);
+      console.error("Error loading CSV:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
+  useEffect(() => {
     loadCSVData();
   }, []);
 
   return (
     <div className="table-component-wrapper">
-      <h2 className="table-title">
-        {table.charAt(0).toUpperCase() + table.slice(1)}
-      </h2>
+      <div className="table-header">
+        <h2 className="table-title">
+          {table.charAt(0).toUpperCase() + table.slice(1)}
+        </h2>
+        <Popover
+          isOpen={isPopoverOpen}
+          onClickOutside={() => setIsPopoverOpen(false)}
+          positions={["bottom", "right", "top", "left"]}
+          content={
+            <div className="popover-content">
+              <input
+                className="search-input"
+                type="text"
+                placeholder="Search..."
+              />
+              <BiSearchAlt
+                className="search-icon"
+                onClick={() => {
+                  const input = document.querySelector(
+                    ".popover-content .search-input"
+                  );
+                  searchTable(input.value);
+                  setIsPopoverOpen(false);
+                }}
+              />
+            </div>
+          }
+        >
+          <BiSearchAlt
+            className="search-icon"
+            onClick={() => setIsPopoverOpen(!isPopoverOpen)}
+          />
+        </Popover>
+      </div>
       <div className="table-container">
         {loading && <div className="loading">Loading CSV data...</div>}
 

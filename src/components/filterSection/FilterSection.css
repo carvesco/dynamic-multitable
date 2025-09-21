@@ -9,6 +9,33 @@
   gap: 1rem;
 }
 
+.search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 12px); /* Adjust for padding and border */
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.reset-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #d85c55;
+  color: white;
+  cursor: pointer;
+}
+
 .displayed-table-item {
   background-color: #f0f0f0;
   color: black;
